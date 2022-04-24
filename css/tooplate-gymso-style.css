@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
   @font-face {
       font-family: 'Plain';
       src: url('../fonts/Plain-Regular.woff2') format('woff2'),
@@ -72,14 +73,16 @@
   h1,h2,h3,h4,h5,h6 {
     font-weight: var(--font-weight-thin);
     line-height: normal;
+    font-family: 'Poppins', sans-serif;
   }
 
   h1 {
     font-size: var(--h1-font-size);
-    font-weight: var(--font-weight-bold);
+    /*font-weight: var(--font-weight-bold);*/
     letter-spacing: -1px;
     text-transform: uppercase;
     margin: 20px 0;
+    font-weight:bolder;
   }
 
   h2 {
@@ -410,9 +413,9 @@
 
   /* Image fit in slider*/
   .slider{
-    width: 100vw;
     height: 100vh;
-    object-fit: none;
+    width : 100vw;
+    object-fit: cover;
     position: relative;
    
   }
@@ -460,8 +463,8 @@
    font-size: 1rem;
    font-weight: bold;
    color: #ffffff;
-   /*text-shadow: 2px 2px 5px black;*/
-   font-family: 'Poppins', sans-serif;
+   text-shadow: 2px 2px 5px black;
+   font-family: 'Roboto Slab', serif;
   
    
  }
@@ -493,7 +496,8 @@
 
 
  .days,.hours,.minutes,.seconds{
-   font-size: 3rem;
+   font-size: 4rem;
+   font-weight: bolder;
 
 
 

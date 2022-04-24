@@ -171,6 +171,10 @@
     color: white;
     font-weight: bold;
   }
+  .halohalo{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
 
   .bg-color {
     background: var(--primary-color);

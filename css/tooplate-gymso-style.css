@@ -522,6 +522,7 @@
 }
 
 .h6-home {
+  font-family: 'Poppins', sans-serif;
   color: rgb(160, 160, 160);
   font-size: var(--h6-font-size);
   line-height: inherit;

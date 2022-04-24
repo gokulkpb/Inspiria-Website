@@ -167,6 +167,9 @@
   .bordered {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
+    background-color: rgb(252, 121, 6);
+    color: white;
+    font-weight: bold;
   }
 
   .bg-color {

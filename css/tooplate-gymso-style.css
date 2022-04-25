@@ -55,6 +55,9 @@
     --border-radius-small:  2px;
   }
 
+  html{
+    scroll-behavior: smooth;
+  }
 
   body {
     background: var(--white-color);
@@ -328,6 +331,7 @@
     font-weight: var(--font-weight-normal);
     text-transform: uppercase;
     padding: 2px 6px;
+    z-index: 100;
   }
 
   .nav-item .nav-link.active,
